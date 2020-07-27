@@ -11,7 +11,7 @@ script:
 
 after_success:
     - docker build -t boy78111947/multi-client ./client
-    - docker build -t boy7811947/multi-nginx ./nginx
+    - docker build -t boy78111947/multi-nginx ./nginx
     - docker build -t boy78111947/multi-server ./server
     - docker build -t boy78111947/multi-worker ./worker
 
